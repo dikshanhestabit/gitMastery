@@ -1,18 +1,6 @@
-#!/bin/bash
-
-add() {
-  echo $(($1 + $2))
+div() {
+  echo $(($1 * $2))   # ❌ BUG: should be division
 }
 
-sub() {
-  echo $(($1 - $2))
-}
-
-mul() {
-  echo $(($1 * $2))
-}
-
-add 5 3
-sub 5 3
-mul 5 3
+div 10 2
 
