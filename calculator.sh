@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo "Simple Calculator"
+echo "Simple Calculator - Version A"
+echo "Simple Calculator - Version B"
+
 echo "Supported operations: add sub mul div"
 echo "-------------------------------------"
 
