@@ -1,0 +1,12 @@
+git bisect start
+# status: waiting for both good and bad commits
+# bad: [04eb15f9fa808e2116d0fd6fd4d9e7ea581e8f39] chore: formatting and cleanup
+git bisect bad 04eb15f9fa808e2116d0fd6fd4d9e7ea581e8f39
+# status: waiting for good commit(s), bad commit known
+# good: [1e4d97fcfebcae086e5c12f71a2954c8b4300a9d] feat: add multiplication
+git bisect good 1e4d97fcfebcae086e5c12f71a2954c8b4300a9d
+# bad: [f0aedd28b09a7213074504eb2677811ad1eb3980] feat: add input validation
+git bisect bad f0aedd28b09a7213074504eb2677811ad1eb3980
+# bad: [b1dc8476288fd7cf8c4205ec09719d62d1310137] feat: add division (BUGGY)
+git bisect bad b1dc8476288fd7cf8c4205ec09719d62d1310137
+# first bad commit: [b1dc8476288fd7cf8c4205ec09719d62d1310137] feat: add division (BUGGY)
