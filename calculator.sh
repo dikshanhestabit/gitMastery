@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Simple Calculator"
+echo "Supported operations: add sub mul div"
+echo "-------------------------------------"
+
 calculate() {
   local a=$1
   local b=$2
