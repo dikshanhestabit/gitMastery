@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo "Simple Calculator"
+echo "Simple Calculator - Version A"
+echo "Simple Calculator - Version B"
+
 echo "Supported operations: add sub mul div"
 echo "-------------------------------------"
 
@@ -28,4 +30,8 @@ calculate 5 3 mul
 calculate 10 2 div
 
 
+# stash workflow for task 4
+#cloneB
+
 # stash workflow for task 5
+
