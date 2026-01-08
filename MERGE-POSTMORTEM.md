@@ -36,12 +36,12 @@ The conflict markers inserted by Git were removed, and both header lines were pr
 ### Resolved Source File
 The following screenshot shows the final `calculator.sh` file after conflict resolution, with **both conflicting changes retained**:
 
-![Resolved Calculator File](calculator-file.png)
+![Resolved Calculator File](screenshots/calculator.png)
 
 ### Merge Commit History
 The following screenshot shows the Git commit graph, including the merge commit created after resolving the conflict:
 
-![Merge Commit Graph](merge-commit.png)
+![Merge Commit Graph](screenshots/merge.png)
 
 
 ## Result
