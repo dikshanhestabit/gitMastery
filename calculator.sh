@@ -5,20 +5,20 @@ echo "Supported operations: add sub mul div"
 echo "-------------------------------------"
 
 calculate() {
-  local a=$1
-  local b=$2
-  local op=$3
+  local a="$1"
+  local b="$2"
+  local op="$3"
 
-  if [ -z "$a" ] || [ -z "$b" ]; then
+  if [[ -z "$a" || -z "$b" ]]; then
     echo "Error: two numbers required"
     exit 1
   fi
 
   case "$op" in
-    add) echo $(($a + $b)) ;;
-    sub) echo $(($a - $b)) ;;
-    mul) echo $(($a * $b)) ;;
-    div) echo $(($a * $b)) ;; # ❌ still buggy
+    add) echo $((a + b)) ;;
+    sub) echo $((a - b)) ;;
+    mul) echo $((a * b)) ;;
+    div) echo $((a * b)) ;; # ❌ known bug
   esac
 }
 
