@@ -1,34 +1,25 @@
 #!/bin/bash
 
-validate() {
-  if [ -z "$1" ] || [ -z "$2" ]; then
+calculate() {
+  local a=$1
+  local b=$2
+  local op=$3
+
+  if [ -z "$a" ] || [ -z "$b" ]; then
     echo "Error: two numbers required"
     exit 1
   fi
+
+  case "$op" in
+    add) echo $(($a + $b)) ;;
+    sub) echo $(($a - $b)) ;;
+    mul) echo $(($a * $b)) ;;
+    div) echo $(($a * $b)) ;; # ❌ still buggy
+  esac
 }
 
-add() {
-  validate "$1" "$2"
-  echo $(($1 + $2))
-}
-
-sub() {
-  validate "$1" "$2"
-  echo $(($1 - $2))
-}
-
-mul() {
-  validate "$1" "$2"
-  echo $(($1 * $2))
-}
-
-div() {
-  validate "$1" "$2"
-  echo $(($1 * $2))   # ❌ BUG STILL HERE
-}
-
-add 5 3
-sub 5 3
-mul 5 3
-div 10 2
+calculate 5 3 add
+calculate 5 3 sub
+calculate 5 3 mul
+calculate 10 2 div
 
