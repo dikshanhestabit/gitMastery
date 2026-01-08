@@ -18,7 +18,7 @@ calculate() {
     add) echo $((a + b)) ;;
     sub) echo $((a - b)) ;;
     mul) echo $((a * b)) ;;
-    div) echo $((a * b)) ;; # ❌ known bug
+    div) echo $((a / b)) ;; 
   esac
 }
 
