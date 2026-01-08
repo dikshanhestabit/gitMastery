@@ -29,3 +29,4 @@ calculate 10 2 div
 
 
 # stash workflow for task 4
+#cloneB
