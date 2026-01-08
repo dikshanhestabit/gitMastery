@@ -1,0 +1,73 @@
+commit a430a9f560c316d56345220ea8662a4614d9c14d
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 16:27:53 2026 +0530
+
+    new
+
+commit ac73d337f6679973577dbc0cb277b76948613088
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 16:20:29 2026 +0530
+
+    Revert "feat: add division (BUGGY)"
+    
+    This reverts commit b1dc8476288fd7cf8c4205ec09719d62d1310137.
+
+commit 1c61979d074c19aa2846a9eb9bb7bf463a733571
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 16:17:03 2026 +0530
+
+    fixed
+
+commit 04eb15f9fa808e2116d0fd6fd4d9e7ea581e8f39
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 16:01:57 2026 +0530
+
+    chore: formatting and cleanup
+
+commit bb4d97d5fef4417a619bdb23a89a9a7bc21a6a24
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 16:01:14 2026 +0530
+
+    docs: add usage and help output
+
+commit 66b4aed960115bb2ebe098da112da3ebda736a00
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 16:00:19 2026 +0530
+
+    refactor: unify operations under calculate()
+
+commit f0aedd28b09a7213074504eb2677811ad1eb3980
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 15:58:56 2026 +0530
+
+    feat: add input validation
+
+commit b1dc8476288fd7cf8c4205ec09719d62d1310137
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 15:56:36 2026 +0530
+
+    feat: add division (BUGGY)
+
+commit 1e4d97fcfebcae086e5c12f71a2954c8b4300a9d
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 15:56:05 2026 +0530
+
+    feat: add multiplication
+
+commit e1390a3bcf0f05eb816703c94199661714d27045
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 15:55:08 2026 +0530
+
+    feat: add subtraction support
+
+commit 86d48755ef7d032fd8e53203357dd92cf2c08f13
+Author: Diksha Nain <dikshanhestabit@gmail.com>
+Date:   Thu Jan 8 15:53:29 2026 +0530
+
+    init: basic calculator with addition
+
+commit dc19a01c3d22e7df8ee4c610c6983a6ff975cedc
+Author: dikshanhestabit <dikshan.hestabit@gmail.com>
+Date:   Thu Jan 8 12:45:09 2026 +0530
+
+    Initial commit
